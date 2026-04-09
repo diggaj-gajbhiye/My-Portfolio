@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Diggaj Gajbhiye | Web Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container nav-content">
+    <div class="logo">Diggaj Gajbhiye</div>
+    <div class="nav-links">
+      <a href="#home">🏠 Home</a>
+      <a href="#education">📚 Edu</a>
+      <a href="#experience">💼 Exp</a>
+      <a href="#projects">🚀 Projects</a>
+      <a href="#skills">⚙️ Skills</a>
+      <a href="#contact">📞 Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text fade-up">
+        <h1>Hi, I'm <span class="highlight">Diggaj Gajbhiye</span> <span class="wave">👋</span></h1>
+        <div class="typed-container">
+          <span id="typed"></span>
+        </div>
+        <p class="hero-description">Building <strong>beautiful, fast, and responsive</strong> websites with <strong>WordPress, Elementor, HTML/CSS/JS</strong>. Let's create something awesome!</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn">Hire Me 💌</a>
+          <a href="#projects" class="btn btn-outline">View Work 🎯</a>
+          <a href="assets/WebDev_Res_DG.pdf" target="_blank" class="btn btn-outline">📄 Resume</a>
+        </div>
+      </div>
+      <div class="hero-image fade-up delay-2">
+        <div class="anime-avatar">
+          <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="95" fill="url(#gradAvatar)" stroke="#fff" stroke-width="3"/>
+            <defs><linearGradient id="gradAvatar" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff9a9e"/><stop offset="100%" stop-color="#fecfef"/></linearGradient></defs>
+            <circle cx="70" cy="80" r="8" fill="#2d2d2d"/>
+            <circle cx="130" cy="80" r="8" fill="#2d2d2d"/>
+            <circle cx="74" cy="78" r="2" fill="white"/>
+            <circle cx="134" cy="78" r="2" fill="white"/>
+            <path d="M80 120 Q100 140 120 120" stroke="#2d2d2d" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <rect x="85" y="140" width="30" height="10" rx="5" fill="#ff6b6b"/>
+            <path d="M50 50 L70 40 M150 50 L130 40" stroke="#2d2d2d" stroke-width="4" stroke-linecap="round"/>
+            <text x="55" y="170" font-size="12" fill="#2d2d2d" font-weight="bold">&lt;coder&gt;</text>
+          </svg>
+          <div class="photo-frame">
+            <img src="assets/Diggaj Gajbhiye.png" alt="Diggaj" class="passport-photo">
+          </div>
+        </div>
+        <div class="anime-stickers">
+          <i class="fab fa-wordpress"></i>
+          <i class="fab fa-elementor"></i>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section edu-section">
+    <div class="container">
+      <h2 class="section-title fade-up">🎓 Education Journey</h2>
+      <div class="education-grid fade-up delay-1">
+        <div class="edu-card">
+          <i class="fas fa-university edu-icon"></i>
+          <h3>Bachelor of Engineering (Computer Science)</h3>
+          <p class="edu-institute">Trinity Academy of Engineering, Pune</p>
+          <p class="edu-date">2022 – 2025</p>
+          <p class="edu-score">CGPA: 8.51 / 10</p>
+        </div>
+        <div class="edu-card">
+          <i class="fas fa-graduation-cap edu-icon"></i>
+          <h3>Diploma in Computer Engineering</h3>
+          <p class="edu-institute">Government Polytechnic Gondia</p>
+          <p class="edu-date">2019 – 2022</p>
+          <p class="edu-score">Percentage: 84.59%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section (2/3 + 1/3 layout) -->
+  <section id="experience" class="section exp-section">
+    <div class="container">
+      <h2 class="section-title fade-up">💼 Work Experience</h2>
+      <div class="experience-row fade-up delay-1">
+        <div class="exp-content">
+          <div class="exp-card">
+            <div class="exp-header">
+              <span class="exp-title"><i class="fas fa-briefcase"></i> Web Developer & Data Analyst Intern</span>
+              <span class="exp-date">Jan 2024 – Jun 2024</span>
+            </div>
+            <div class="exp-company">Digitize Mojo, Pune (Remote)</div>
+            <ul class="exp-desc">
+              <li>Developed responsive websites using <strong>HTML5, CSS3, JavaScript</strong> and <strong>WordPress + Elementor</strong> – achieving 95+ Lighthouse score.</li>
+              <li>Customized WordPress themes, configured essential plugins (Yoast SEO, WP Forms, Smush, WP Rocket) and optimized Core Web Vitals.</li>
+              <li>Implemented SEO best practices (meta tags, structured data, sitemaps) and integrated Google Analytics for data-driven decisions.</li>
+              <li>Reduced page load times by 30% through image compression, caching, and CDN integration.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-image">
+          <div class="exp-img-placeholder">
+            <img src="assets/work.jpg" alt="work experience">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title fade-up">🚀 Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card fade-up delay-1">
+          <div class="project-content">
+            <div class="project-icon"><i class="fas fa-mug-hot"></i></div>
+            <h3 class="project-title">Cafe Website – Design & Analytics</h3>
+            <p>Fully responsive cafe website with smooth animations, online reservation form, and Google Analytics integration.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5/CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">WordPress</span>
+              <span class="tech-tag">Elementor</span>
+            </div>
+            <a href="https://www.theyogibaba.com" target="_blank" class="project-link">Live Demo <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="project-card fade-up delay-2">
+          <div class="project-content">
+            <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+            <h3 class="project-title">ShopperStack E‑commerce Testing</h3>
+            <p>Manual testing & QA – 40+ test cases, 10+ critical defects reported, regression testing, SQL validation.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Manual Testing</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">JIRA</span>
+              <span class="tech-tag">Excel</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card fade-up delay-3">
+          <div class="project-content">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <h3 class="project-title">StartupOracle – AI Web App</h3>
+            <p>Full-stack web app with dark-themed UI, REST API integration, live deployment on Streamlit Cloud.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python/Streamlit</span>
+              <span class="tech-tag">HTML/CSS</span>
+              <span class="tech-tag">REST API</span>
+            </div>
+            <a href="https://startup-oracle-bwqxgyyhqkxkbljuev2foe.streamlit.app/" target="_blank" class="project-link">Live Demo <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title fade-up">⚡ Technical Skills</h2>
+      <div class="skills-box fade-up delay-1">
+        <div class="skill-cat">
+          <h3><i class="fab fa-wordpress"></i> Web Development (Core)</h3>
+          <div class="skill-tags">
+            <span class="skill-tag highlight-skill">WordPress</span>
+            <span class="skill-tag highlight-skill">Elementor</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript (ES6)</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <h3><i class="fas fa-tachometer-alt"></i> Performance & SEO</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Lighthouse Optimization</span>
+            <span class="skill-tag">Core Web Vitals</span>
+            <span class="skill-tag">Yoast SEO</span>
+            <span class="skill-tag">Image Compression</span>
+            <span class="skill-tag">WP Rocket</span>
+          </div>
+        </div>
+        <div class="skill-cat">
+          <h3><i class="fas fa-vial"></i> Testing & Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Manual Testing</span>
+            <span class="skill-tag">Test Case Design</span>
+            <span class="skill-tag">Git/GitHub</span>
+            <span class="skill-tag">Google Analytics</span>
+            <span class="skill-tag">Chrome DevTools</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title fade-up">📬 Let's Connect</h2>
+      <p class="contact-text fade-up delay-1">Open for Web Developer / WordPress Fresher roles. Let's build something epic!</p>
+      <div class="contact-links fade-up delay-2">
+        <a href="mailto:diggajbhiye5113@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://linkedin.com/in/diggaj-gajbhiye" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/diggaj-gajbhiye" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="#"><i class="fas fa-phone-alt"></i> +91-9834207573</a>
+      </div>
+      <div class="certs fade-up delay-3">
+        <h3>📜 Certifications</h3>
+        <p>✔ Web Design with HTML, CSS & WordPress – Udemy &nbsp;|&nbsp; ✔ Programming in Java – NPTEL</p>
+        <p>📍 Pune, India</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Diggaj Gajbhiye — Built with <i class="fas fa-heart" style="color: #ff6b6b;"></i> for WordPress & Elementor opportunities</p>
+</footer>
+
+<script>
+  // Typing animation
+  const typedElement = document.getElementById('typed');
+  const roles = ["Web Developer 💻", "WordPress & Elementor Expert 🚀", "Frontend Designer 🎨", "SEO Optimizer 📈"];
+  let roleIndex = 0, charIndex = 0, isDeleting = false;
+  function typeEffect() {
+    const currentRole = roles[roleIndex];
+    if (isDeleting) {
+      typedElement.textContent = currentRole.substring(0, charIndex - 1);
+      charIndex--;
+    } else {
+      typedElement.textContent = currentRole.substring(0, charIndex + 1);
+      charIndex++;
+    }
+    if (!isDeleting && charIndex === currentRole.length) {
+      isDeleting = true;
+      setTimeout(typeEffect, 2000);
+      return;
+    }
+    if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      roleIndex = (roleIndex + 1) % roles.length;
+      setTimeout(typeEffect, 200);
+      return;
+    }
+    const speed = isDeleting ? 50 : 100;
+    setTimeout(typeEffect, speed);
+  }
+  typeEffect();
+
+  // Scroll reveal
+  const faders = document.querySelectorAll('.fade-up');
+  const appearOptions = { threshold: 0.1, rootMargin: "0px 0px -50px 0px" };
+  const appearOnScroll = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.style.opacity = 1;
+      entry.target.style.transform = 'translateY(0)';
+      appearOnScroll.unobserve(entry.target);
+    });
+  }, appearOptions);
+  faders.forEach(fader => {
+    fader.style.opacity = 0;
+    fader.style.transform = 'translateY(30px)';
+    appearOnScroll.observe(fader);
+  });
+</script>
+</body>
+</html>
